@@ -183,7 +183,7 @@ class phantom:
         self.api = randint(9, 10)
         self.name = user['username']
         self.avatar = ["https://cdn.discordapp.com/attachments/1065003016018735246/1065007874239123486/e2a5ac06afd25f6bb771908b534de2aa.png", "https://cdn.discordapp.com/attachments/1065003016018735246/1065007874239123486/e2a5ac06afd25f6bb771908b534de2aa.png", "https://cdn.discordapp.com/attachments/1065003016018735246/1065007874239123486/e2a5ac06afd25f6bb771908b534de2aa.png"]
-        self.username = ['phantom', 'phantom-runs-this-shit', 'ran-by-phantom']
+        self.username = ['phantom', 'phantom-runs-this-shit', 'destroyed-by-phantom']
         self.num = 0
 
         self.p = Fore.MAGENTA
