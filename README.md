@@ -14,3 +14,4 @@ This nuker is the fastest discord server nuker made in Python
 
 ## Credits
 * ionel1337 - Main Developer
+* alvin - developer
