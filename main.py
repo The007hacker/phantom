@@ -87,7 +87,7 @@ logo = '''
 > discord.gg/TB8hHfkaN7
 > made by ionel
 '''
-motds = ["That's one small step for man, one giant leap for mankind. - Armstrong", "Become an major incovenience", "Imagine being called 'Teddy Andrew'", "Abusing requests since 2020", "Suck a big fat cock"]
+motds = ["Proffesional Kpop Destroyer", "Become an major incovenience", "Phantom owns you", "Get raped by phantom", "Suck a big fat cock"]
 
 def show_banner():
     util.clear_output()
