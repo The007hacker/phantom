@@ -87,7 +87,7 @@ logo = '''
 > discord.gg/TB8hHfkaN7
 > made by ionel
 '''
-motds = ["Proffesional Kpop Destroyer", "Become an major incovenience", "Phantom owns you", "Get raped by phantom", "Suck a big fat cock"]
+motds = ["Proffesional Kpop Destroyer", "Become an major incovenience", "Phantom owns you", "Get raped by phantom", "Phantom server destroyer"]
 
 def show_banner():
     util.clear_output()
