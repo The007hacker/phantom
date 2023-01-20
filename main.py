@@ -700,7 +700,7 @@ class phantom:
             await self.menu()
         elif 100 < int(x):
             if user['id'] != "1062366852807917688" or user['id'] != "1062440467540750367":
-                self.err("you can't use threads above 100")
+                self.err("you can`t use threads above 100")
                 await async_sleep(2)
                 await self.menu()
             else:
