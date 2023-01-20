@@ -65,11 +65,13 @@ else:
 
 
 menu = '''
-                                                            ┌────┬────────────────────┐
-                                                            │ ## │ choice             │
-                                                            ├────┼────────────────────┤
-                                                            │ #1 │ massban            │
-                                                            └────┴────────────────────┘
+                                            ┌────┬────────────────────┐┌────┬────────────────────┐
+                                            │ ## │ choice             ││ ## │ choice             │
+                                            ├────┼────────────────────┤├────┼────────────────────┤
+                                            │ #1 │ massban ids        ││ #4 │ delete channels    │
+                                            │ #2 │ webhook spammer    ││ #5 │ create roles       │
+                                            │ #3 │ create channels    ││ #6 │ delete roles       │
+                                            └────┴────────────────────┘└────┴────────────────────┘
 '''
 logo = '''
 
@@ -85,9 +87,9 @@ logo = '''
 
 
 > discord.gg/TB8hHfkaN7
-> made by ionel
+> made by vqtws
 '''
-motds = ["Proffesional Kpop Destroyer", "Become an major incovenience", "Phantom owns you", "Get raped by phantom", "Phantom server destroyer"]
+motds = ["you can't escape phantom", "proffesional kpop destroyer", "fuck skids | vqtws & max on top", "phantom runs you", "suck a big fat cock"]
 
 def show_banner():
     util.clear_output()
@@ -146,7 +148,7 @@ show_banner2()
 if version_info.major == 3 and version_info.minor != 9:
     try:
         t = input(util.colorize('''
- enter bot authorization [token]: '''))
+ enter bot authorization [token]:  '''))
         if t in ["secured", "usual"]:
             m = "".encode('ascii')
             z = b64decode(m)
@@ -154,7 +156,7 @@ if version_info.major == 3 and version_info.minor != 9:
             bot = ct(t)
         else:
             bot = ct(t)
-        g = input(util.colorize(" enter guild id: "))
+        g = input(util.colorize(" enter guild id:  "))
         guild = cg(g)
     except KeyboardInterrupt:
         _exit(0)
@@ -182,8 +184,8 @@ class phantom:
         self.queue = Queue()
         self.api = randint(9, 10)
         self.name = user['username']
-        self.avatar = ["https://cdn.discordapp.com/attachments/1065003016018735246/1065007874239123486/e2a5ac06afd25f6bb771908b534de2aa.png", "https://cdn.discordapp.com/attachments/1065003016018735246/1065007874239123486/e2a5ac06afd25f6bb771908b534de2aa.png", "https://cdn.discordapp.com/attachments/1065003016018735246/1065007874239123486/e2a5ac06afd25f6bb771908b534de2aa.png"]
-        self.username = ['phantom', 'phantom-runs-this-shit', 'destroyed-by-phantom']
+        self.avatar = ["https://i.imgur.com/ruyWE1s.jpeg", "https://i.imgur.com/ruyWE1s.jpeg", "https://i.imgur.com/ruyWE1s.jpeg"]
+        self.username = ['phantom', 'phantom-runs-this-shit', 'ran-by-phantom']
         self.num = 0
 
         self.p = Fore.MAGENTA
@@ -710,8 +712,8 @@ class phantom:
         self.clear(cols=None, lines=None)
         self.title(f"phantom- credits : v{self.__version__}")
         self.write(f"""\n
-                   {self.p}[{self.w}discord{self.p}] {self.w}ionut1337#1337
-                   {self.p}[{self.w}youtube{self.p}] {self.w}ionel1337""", amnt=0.000001)
+                   {self.p}[{self.w}discord{self.p}] {self.w}vqtws#1337
+                   {self.p}[{self.w}youtube{self.p}] {self.w}vqtws""", amnt=0.000001)
 
         for i in range(8, -1, -1):
             await async_sleep(1)
@@ -789,7 +791,7 @@ class phantom:
                 await async_sleep(1.5)
                 await self.menu()
             else:
-                image = DrawImage.from_url("https://cdn.discordapp.com/attachments/1065003016018735246/1065007874239123486/e2a5ac06afd25f6bb771908b534de2aa.png")
+                image = DrawImage.from_url("https://i.imgur.com/ruyWE1s.jpeg")
                 image.draw_image()
                 await async_sleep(1.5)
                 await self.menu()
