@@ -695,7 +695,7 @@ class phantom:
  thread amount: '''))
 
         if not x.strip().isdigit():
-            self.err("amnt should be int")
+            self.err("amount should be int")
             await async_sleep(2)
             await self.menu()
         elif 100 < int(x):
