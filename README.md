@@ -7,7 +7,7 @@
 4. Run **main.py** using **py main.py** in cmd
 
 ## Previews
-![Complete Showcase](https://youtu.be/NNEo6oq9pv8)
+[Complete Showcase](https://youtu.be/NNEo6oq9pv8)
 
 ## About
 This nuker is the fastest discord server nuker made in Python
